@@ -1,22 +1,26 @@
-.App {
+.parent{
+ display: flex;
+ flex-wrap: wrap;
+ margin-left: 20px;
+}
+
+.child{
+  flex-basis: 25%;
+  margin: 20px
+}
+
+.albums{
   text-align: center;
+  font-weight: 100
 }
 
-.App-logo {
-  height: 40vmin;
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.facebook{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top:15%
 }
 
-.App-link {
-  color: #09d3ac;
+.fbbutton{
+  
 }
